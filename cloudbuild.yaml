@@ -7,7 +7,7 @@ steps:
     - 'rsync'
     - '-d'
     - '-r'
-    - 'dags'
+    - 'api-gov-br'
     - 'gs://${PROJECT_ID}/script_submit_spark/api-gcp-gov-br/submit_file_config.py'
 options:
   logging: CLOUD_LOGGING_ONLY
